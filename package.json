@@ -4,7 +4,8 @@
   "description": "This is testing for pipeline again!! sakjdfasdkfklsadj",
   "main": "index.js",
   "devDependencies": {
-    "husky": "^8.0.1"
+    "husky": "^8.0.1",
+    "typescript": "^4.7.4"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
