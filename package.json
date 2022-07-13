@@ -3,8 +3,12 @@
   "version": "1.0.0",
   "description": "This is testing for pipeline again!! sakjdfasdkfklsadj",
   "main": "index.js",
+  "devDependencies": {
+    "husky": "^8.0.1"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
