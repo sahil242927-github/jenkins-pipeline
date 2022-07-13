@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 INPUT_FILE=$1
-PATTERN=(IO|SH|AR)-[0-9]{4} (fix|feat|test): [a-zA-Z0-9]+
+PATTERN=/"(IO|SH|AR)-[0-9]{4} (fix|feat|test): [a-zA-Z0-9]+"/
 if ! [[ "$INPUT_FILE" =~ $PATTERN ]]; then
   echo "Bad commit message, see example: IO-123 fix: message"
   exit 1
