@@ -21,7 +21,7 @@
   },
   "husky" : {
     "hooks" : {
-      "pre-commit" : "sh ./scripts/git-hooks/commit-msg",
+      "pre-commit" : "sh ./scripts/git-hooks/commit-msg.sh",
       "pre-push" : ""
     }
   }
