@@ -17,13 +17,7 @@
     "url": "https://github.com/sahil242927-github/jenkins-pipeline/issues"
   },
   "homepage": "https://github.com/sahil242927-github/jenkins-pipeline#readme",
-  "dependencies": {
-    "husky": "^8.0.1"
-  },
-  "husky" : {
-    "hooks" : {
-      "pre-commit" : "sh ./scripts/git-hooks/commit-msg.sh",
-      "pre-push" : ""
-    }
+  "devDependencies": {
+    "husky": "^8.0.0"
   }
 }
