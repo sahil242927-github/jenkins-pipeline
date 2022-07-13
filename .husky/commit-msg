@@ -1,5 +1,12 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
-echo "$(cat $1)"
-echo "sahil"
+#echo "$(cat $1)"
+INPUT_FILE="$(cat $1)"
+echo $INPUT_FILE
+PATTERN=(IO|SH|AR)-[0-9]{4} (fix|feat|test): [a-zA-Z0-9]+
+if ! [[ "$INPUT_FILE" =~ $PATTERN ]]; then
+  echo "Bad commit message, see example: IO-123 fix: message"
+  exit 1
+fi
+
