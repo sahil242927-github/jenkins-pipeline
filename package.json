@@ -1,0 +1,24 @@
+{
+  "name": "jenkins-pipeline",
+  "version": "1.0.0",
+  "description": "This is testing for pipeline again!! sakjdfasdkfklsadj",
+  "main": "index.js",
+  "devDependencies": {
+    "husky": "^8.0.1",
+    "typescript": "^4.7.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sahil242927-github/jenkins-pipeline.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sahil242927-github/jenkins-pipeline/issues"
+  },
+  "homepage": "https://github.com/sahil242927-github/jenkins-pipeline#readme"
+}
